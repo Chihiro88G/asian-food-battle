@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/asian-food-battle/static/css/main.775c24fc.css",
+    "main.js": "/asian-food-battle/static/js/main.161eec11.js",
+    "index.html": "/asian-food-battle/index.html",
+    "main.775c24fc.css.map": "/asian-food-battle/static/css/main.775c24fc.css.map",
+    "main.161eec11.js.map": "/asian-food-battle/static/js/main.161eec11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.775c24fc.css",
+    "static/js/main.161eec11.js"
+  ]
+}
