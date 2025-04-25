@@ -1,0 +1,44 @@
+.marquee-container {
+  overflow: hidden; /* Hide overflowing content */
+  width: 100%; /* Full width */
+  position: relative;
+}
+
+.marquee {
+  display: flex; /* Align images horizontally */
+  gap: 50px; /* Space between images */
+  animation: scroll-left 35s linear infinite; /* Continuous scrolling animation */
+  width: max-content;
+}
+
+.marquee img {
+  width: auto;
+  height: 500px; /* Adjust height as needed */
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(20%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 1015px) {
+  .marquee {
+    animation: scroll-left 15s linear infinite;
+    gap: 20px;
+  }
+
+  .marquee img {
+    width: auto;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .marquee {
+    animation: scroll-left 10s linear infinite;
+  }  
+}
