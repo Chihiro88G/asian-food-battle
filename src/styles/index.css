@@ -281,10 +281,16 @@ h3,
   background-color: #C60404;
   border-radius: 10px;
   margin-top: 60px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .contact-form input[type='submit']:hover {
   cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: white;
+  color: #C60404;
 }
 
 .input-half,
